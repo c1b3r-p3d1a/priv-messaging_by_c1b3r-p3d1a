@@ -2,16 +2,18 @@
   "name": "priv-messaging_by_c1b3r-p3d1a",
   "version": "1.0.0",
   "description": "A new way to make friends!",
-  "main": ".\\chat-js\\src\\index.js",
+  "main": "./chat-js/src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node .\\chat-js\\src\\index.js"
+    "start": "node ./chat-js/src/index.js"
   },
   "author": "c1b3r-p3d1a",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
-    "nodemon": "^2.0.20",
     "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
