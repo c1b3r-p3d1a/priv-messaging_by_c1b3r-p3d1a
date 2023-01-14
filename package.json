@@ -2,10 +2,10 @@
   "name": "priv-messaging_by_c1b3r-p3d1a",
   "version": "1.0.0",
   "description": "A new way to make friends!",
-  "main": ".\\chat-js\\index.js",
+  "main": ".\\chat-js\\src\\index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node .\\chat-js\\index.js"
+    "start": "node .\\chat-js\\src\\index.js"
   },
   "author": "c1b3r-p3d1a",
   "license": "MIT",
