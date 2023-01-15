@@ -1,0 +1,12 @@
+#content-wrap{
+    display: none;
+}
+
+.msg{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.username_bold{
+    padding-top: 10px;    
+}
