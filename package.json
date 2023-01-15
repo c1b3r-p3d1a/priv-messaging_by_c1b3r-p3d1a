@@ -5,7 +5,7 @@
   "main": "./chat-js/src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./chat-js/src/index.js"
+    "run": "node ./chat-js/src/index.js"
   },
   "author": "c1b3r-p3d1a",
   "license": "MIT",
