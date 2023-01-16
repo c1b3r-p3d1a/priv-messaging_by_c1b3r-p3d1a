@@ -1,4 +1,4 @@
-![](https://api.checklyhq.com/v1/badges/checks/cb1f4c57-63c2-42f3-b1f1-cb7257ea8c90?style=plastic&theme=default)
+![](https://api.checklyhq.com/v1/badges/checks/8e788007-0933-4557-8546-93025b7e3a91?style=plastic&theme=default)
 # Priv Messaging ✉️
 ![img_eng](https://user-images.githubusercontent.com/100363165/212550582-87041f21-fd3b-4301-a6f1-9c55e21860e9.png)
 
