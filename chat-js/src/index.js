@@ -8,9 +8,9 @@ const socketio = require('socket.io')(server);
 
 app.set('port', process.env.PORT || 3000);
 
-require('./chat-js/src/sockets')(socketio);
+require('./sockets')(socketio);
 
-app.use(express.static(path.join(__dirname, '/chat-js/src/public')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 server.listen(app.get('port'), () => {
     console.log('Server listening on port', app.get('port'));
