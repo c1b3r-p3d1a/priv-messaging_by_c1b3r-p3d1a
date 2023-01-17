@@ -8,7 +8,7 @@ const socketio = require('socket.io')(server);
 
 app.set('port', process.env.PORT || 3000);
 
-require('./public/js/sockets')(socketio);
+require('./sockets')(socketio);
 
 app.use(express.static(path.join(__dirname, 'public')));
 

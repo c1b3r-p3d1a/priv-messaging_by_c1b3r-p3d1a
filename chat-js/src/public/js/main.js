@@ -30,17 +30,22 @@ $(function() {
 
     nickForm.submit( e =>{
         e.preventDefault();
-        socket.emit("nuevoUsuario", nickName.val(), datos =>{
-            if(datos){
-                nick = nickName.val();
-                $("#nick-wrap").hide();
-                $("#content-wrap").show();
-            } else {
-                nickError.html('<div class="alert alert-danger">The user already exists</div>');
-            }
+        if (nickName.val() != ""){
+            socket.emit("nuevoUsuario", nickName.val(), datos =>{ 
+                if(datos){
+                    nick = nickName.val();
+                    $("#nick-wrap").hide();
+                    $("#server_status_widget").hide();
+                    $("#content-wrap").show();
+                } else {
+                    nickError.html('<div class="alert alert-danger">The user already exists</div>');
+                }
 
-            nickName.val("");
-        });
+                nickName.val("");
+            });
+        } else {
+            nickError.html('<div class="alert alert-danger">You cannot leave username field empty!</div>');
+        }
     });
 
     socket.on("nombreUsuario", datos =>{
@@ -51,7 +56,7 @@ $(function() {
         for(let i = 0; i < datos.length; i++){
             if(nick == datos[i]){
                 color = "#027f43";
-                salir = '<a class="enlace-salir" href="/">Salir</a>';
+                salir = `<a class="enlace-salir" href="/"><i class="fas fa-sign-out-alt salir"></i></a>`;
             } else {
                 color = "#000";
                 salir = "";

@@ -12,7 +12,7 @@
 <body>
     
     <nav class="nav navbar-dark bg-dark">
-        <a href="/" class="nav navbar-brand mx-auto p-2"><b>Priv Messaging Chat</b></a>
+        <a href="/" class="nav navbar-brand mx-auto p-2"><b><img src="./img/logo.ico" class="logo_navbar">Priv Messaging Chat</b></a>
     </nav>
 
     <div class="card col-md-4 mx-auto mt-5" id="nick-wrap">
@@ -23,7 +23,7 @@
         <div class="card-body">
             <form id="nick-form">
                 <input type="text" id="nick-name" class="form-control">
-                <button type="submit" class="btn btn-outline-success mt-3" id="nick-btn">Acceder</button>
+                <button type="submit" class="btn btn-outline-success mt-3" id="nick-btn"><i class="fas fa-sign-in-alt"></i> Enter</button>
             </form>
         </div>
     </div>
@@ -45,7 +45,7 @@
                         <div class="input-group">
                             <input type="text" class="form-control" id="message">
                             <div class="input-group-append">
-                                <button class="btn btn-success" type="submit">Send</button>
+                                <button class="btn btn-success" type="submit">Send <i class="fas fa-paper-plane"></i></button>
                             </div>
                         </div>
                     </form>
@@ -55,7 +55,7 @@
             <div class="col-md-3 mt-5">
                 <div class="card">
                     <div class="card-header">
-                        <h4>Connected Users</h4>
+                        <h4><i class="fas fa-users"></i> Connected Users</h4>
                     </div>
                     <div class="card-body">
                         <div id="usernames">
@@ -68,11 +68,12 @@
     </div>
 
     <div class="text-center pt-5">
-        <iframe src="https://priv-messaging.checklyhq.com" width="1000" height="450"></iframe>
+        <iframe src="https://priv-messaging.checklyhq.com" width="1000" height="450" id="server_status_widget"></iframe>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <script src="/socket.io/socket.io.js" charset="utf-8"></script>
     <script src="./js/main.js"></script>
+    <script src="https://kit.fontawesome.com/4aafa23ab9.js" crossorigin="anonymous"></script>
 </body>
 </html>

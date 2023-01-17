@@ -10,3 +10,15 @@
 .username_bold{
     padding-top: 10px;    
 }
+
+.logo_navbar{
+    height: 40px;
+    width: 50px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+
+.send_svg{
+    height: 7%;
+    width: 7%;
+}
