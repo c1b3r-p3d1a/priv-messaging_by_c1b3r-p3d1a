@@ -56,7 +56,7 @@ $(function() {
         for(let i = 0; i < datos.length; i++){
             if(nick == datos[i]){
                 color = "#027f43";
-                salir = `<a class="enlace-salir" href="/"><i class="fas fa-sign-out-alt salir"></i></a>`;
+                salir = `<a class="enlace-salir" href="/" style="color: #808080"><i class="fas fa-sign-out-alt salir"></i></a>`;
             } else {
                 color = "#000";
                 salir = "";

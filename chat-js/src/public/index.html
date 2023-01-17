@@ -10,11 +10,44 @@
     <link rel="shortcut icon" href="./img/logo.ico" type="image/x-icon">
 </head>
 <body>
-    
-    <nav class="nav navbar-dark bg-dark">
-        <a href="/" class="nav navbar-brand mx-auto p-2"><b><img src="./img/logo.ico" class="logo_navbar">Priv Messaging Chat</b></a>
-    </nav>
-
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white ">Contact</h4>
+                        <div class="d-flex">
+                            <ul class="list-unstyled">
+                                <a href="https://github.com/c1b3r-p3d1a" target="_blank" class="m-2 contact-icons"><i class="fa-brands fa-github"></i></a>
+                            </ul>
+                            <ul class="list-unstyled">
+                                <a href="mailto:dragar-va0p@icloud.com" class="m-2 contact-icons"><i class="fa-solid fa-envelope"></i></a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white">About Priv Messaging</h4>
+                        <ul class="list-unstyled">
+                            <h6 style="color: #808080;">Priv Messaging was initialy created on 14/01/2023 by c1b3r-p3d1a and repo was posted on <b><em><a href="https://github.com/c1b3r-p3d1a/priv-messaging_by_c1b3r-p3d1a" target="_blank" style="text-decoration: none; color: #808080">GitHub</a></b></em></h6>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-dark bg-success">
+            <div class="container">
+                <a href="/" class="navbar-brand d-flex align-items-center">
+                    <img src="./img/logo.ico" style="width: 12%; height: 12%;" class="me-3">
+                    <strong>Priv Messaging Chat</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
     <div class="card col-md-4 mx-auto mt-5" id="nick-wrap">
         <div class="card-header">
             <h4>Set your username</h4>
@@ -68,12 +101,13 @@
     </div>
 
     <div class="text-center pt-5">
-        <iframe src="https://priv-messaging.checklyhq.com" width="1000" height="450" id="server_status_widget"></iframe>
+        <iframe src="https://priv-messaging.checklyhq.com" width="875" height="450" id="server_status_widget"></iframe>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <script src="/socket.io/socket.io.js" charset="utf-8"></script>
     <script src="./js/main.js"></script>
     <script src="https://kit.fontawesome.com/4aafa23ab9.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>

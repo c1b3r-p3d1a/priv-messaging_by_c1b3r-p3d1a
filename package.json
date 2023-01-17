@@ -1,6 +1,6 @@
 {
   "name": "priv-messaging_by_c1b3r-p3d1a",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A new way to make friends online!",
   "main": "./chat-js/src/index.js",
   "scripts": {
