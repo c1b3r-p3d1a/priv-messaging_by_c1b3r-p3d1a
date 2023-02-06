@@ -1,4 +1,4 @@
-![](https://api.checklyhq.com/v1/badges/checks/18d5f91c-e761-4d98-a835-f7396ba33570?style=plastic&theme=default)
+![](https://api.checklyhq.com/v1/badges/checks/18d5f91c-e761-4d98-a835-f7396ba33570?style=plastic&theme=default) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/c1b3r-p3d1a/priv-messaging_by_c1b3r-p3d1a?color=light-green&style=plastic) ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/c1b3r-p3d1a/priv-messaging_by_c1b3r-p3d1a?color=light-green&style=plastic) ![GitHub watchers](https://img.shields.io/github/watchers/c1b3r-p3d1a/priv-messaging_by_c1b3r-p3d1a?style=social)
 # Priv Messaging ✉️
 ![img_eng](https://user-images.githubusercontent.com/100363165/212550582-87041f21-fd3b-4301-a6f1-9c55e21860e9.png)
 
